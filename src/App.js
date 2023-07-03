@@ -50,7 +50,7 @@ return (
     <Card.Text>
       Enter any city name to check the weather deatils in that area..
     </Card.Text>
-    <Button variant="primary" onClick={()=>{window.location.assign('/weather')}}>Go to Weather</Button>
+    <a href='https://srikanthgumma.github.io/react_weather_app/' target='_self' id='weather' >Go to Weather App</a>
   </Card.Body>
 </Card>
 
