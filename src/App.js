@@ -76,7 +76,7 @@ return (
       Some quick example text to build on the card title and make up the
       bulk of the card's content.
     </Card.Text>
-    <Button variant="primary"  onClick={()=>{window.location.assign('/register')}}>Go to LandingPage</Button>
+    <a href='https://srikanthgumma.github.io/react_responsive_landingpage/' target='_self' id='todo' >Go to Landing Page</a>
   </Card.Body>
 </Card>
 
