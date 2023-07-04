@@ -27,16 +27,18 @@ let CardStyle ={
 
 return (
     <div>
-<Card style={CardStyle}>
+<Card style={CardStyle} id='mypage'>
   <Card.Img variant="top" src={MyPic} style={PicStyle} id='mpic'/>
   <Card.Body>
     <Card.Title><h1><b>SRIKANTH GUMMADI</b></h1></Card.Title>
-    <Card.Text style={{fontSize:"15px",paddingTop:"3px"}}>
+    <Card.Text  id='skills'>
      <i><b> Front End Developer</b></i> and <i><b>Instagram Influencer</b></i>
     </Card.Text>
-    <a href='https://github.com/srikanthgumma/' id='gPage'>GitHub Profile</a>
+   <div id='navchilds'>
+   <a href='https://github.com/srikanthgumma/' id='gPage'>GitHub Profile</a>
     <a href='https://www.linkedin.com/in/gummadi-srikanth/' id='gPage'>LinkedIn Profle</a>
     <a href='/' id='gPage' >Resume</a>
+   </div>
 
 
   </Card.Body>
@@ -92,7 +94,7 @@ return (
   </Card.Body>
 </Card>
 
-<Card style={{border:"none"}} id='ficard'>
+{/* <Card style={{border:"none"}} id='ficard'>
   <Card.Img variant="top" src=""  style={{width:"100%",height:"250px"}}/>
   <Card.Body>
     <Card.Title>Calculator</Card.Title>
@@ -102,7 +104,7 @@ return (
     </Card.Text>
     <Button variant="primary"  onClick={()=>{window.location.assign('/calculator')}}>Go to Calculator</Button>
   </Card.Body>
-</Card>
+</Card> */}
 
 
 </div>

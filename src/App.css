@@ -33,3 +33,20 @@ body{
   height: 130px !important;
   width: 130px !important; 
 }
+#skills{
+  font-size:15px;
+  padding-top:3px;
+}
+@media screen and (max-width:460px) {
+  div #mypage{
+    text-align: center;
+    margin: auto;
+
+  }
+  div div #navchilds{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    font-size: .6rem;
+  }
+}
