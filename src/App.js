@@ -44,7 +44,7 @@ return (
   </Card.Body>
 </Card>
 
-<div style={{display:"grid",gridTemplateColumns:"28% 28% 28%",justifyContent:"space-evenly", marginTop:"5%",gap:"65px"}} id='maind'>
+<div  id='maind'>
 <Card style={{border:"none"}} id='fcard'>
   <Card.Img variant="top" src={Wpic} style={{height:"250px"}}/>
   <Card.Body >
