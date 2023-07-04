@@ -52,7 +52,7 @@ body{
   }
   div div #navchilds{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
     width: 120px;
     font-size: .6rem;
