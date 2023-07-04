@@ -54,6 +54,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+ 
+  }
+  #navchilds a{
     width: 120px;
     font-size: .6rem;
   }
