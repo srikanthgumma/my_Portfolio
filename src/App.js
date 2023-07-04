@@ -37,7 +37,7 @@ return (
    <div id='navchilds'>
    <a href='https://github.com/srikanthgumma/' id='gPage'>GitHub Profile</a>
     <a href='https://www.linkedin.com/in/gummadi-srikanth/' id='gPage'>LinkedIn Profle</a>
-    <a href='/https://srikanthgumma.github.io/react_myresume/' id='gPage' >Resume</a>
+    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' >Resume</a>
    </div>
 
 
