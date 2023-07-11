@@ -39,12 +39,15 @@ return (
     <a href='https://www.linkedin.com/in/gummadi-srikanth/' id='gPage'>LinkedIn Profle</a>
     <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' >Resume</a>
    </div>
-
-
   </Card.Body>
 </Card>
-
+<div id='myprojects'>
+  <h1>MY PROJECTS <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+</svg></h1>
+</div>
 <div  id='maind'>
+
 <Card style={{border:"none"}} id='fcard'>
   <Card.Img variant="top" src={Wpic} style={{height:"250px"}}/>
   <Card.Body >
@@ -94,17 +97,6 @@ return (
   </Card.Body>
 </Card>
 
-{/* <Card style={{border:"none"}} id='ficard'>
-  <Card.Img variant="top" src=""  style={{width:"100%",height:"250px"}}/>
-  <Card.Body>
-    <Card.Title>Calculator</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the
-      bulk of the card's content.
-    </Card.Text>
-    <Button variant="primary"  onClick={()=>{window.location.assign('/calculator')}}>Go to Calculator</Button>
-  </Card.Body>
-</Card> */}
 
 
 </div>
