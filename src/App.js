@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Wpic from './images/wew.jpg'
 import MyPic from './images/sri.jpg';
 import Tpic from './images/todo.jpeg'
