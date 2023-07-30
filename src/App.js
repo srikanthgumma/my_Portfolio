@@ -3,7 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Wpic from './images/wew.jpg'
 import MyPic from './images/sri.jpg';
 import Tpic from './images/todo.jpeg'
-import Lpic from './images/land.png'
+import Lpic from './images/land.png';
+import counter from './images/counter.png'
 import './App.css';
 
 function App() {
@@ -35,9 +36,10 @@ return (
      <i><b> Front End Developer</b></i> and <i><b>Instagram Influencer</b></i>
     </Card.Text>
    <div id='navchilds'>
-   <a href='https://github.com/srikanthgumma/' id='gPage'>GitHub Profile</a>
-    <a href='https://www.linkedin.com/in/gummadi-srikanth/' id='gPage'>LinkedIn Profle</a>
-    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' >Resume</a>
+   <a href='https://github.com/srikanthgumma/' id='gPage' title='Go to My GitHub Profile'>GitHub</a>
+    <a href='https://www.linkedin.com/in/gummadi-srikanth/' id='gPage' title='Go to My LinkedIn Profile'>LinkedIn</a>
+    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' title='Go to My Resume Profile'>Resume</a>
+    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' title='Go to My InternShip Project'>InternShip Project<sup> <span class="badge" >***</span></sup></a>
    </div>
   </Card.Body>
 </Card>
@@ -78,22 +80,21 @@ return (
   <Card.Body>
     <Card.Title>Landing Page</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the
-      bulk of the card's content.
+      It is an Intgram Grwoth E-Book webpage where you can view it's benefits and how this e-book can help you grow your followers on IG and make some real money. It is made Responsive on different screens.(Mobile,Desktop,Tab etc..)
     </Card.Text>
-    <a href='https://srikanthgumma.github.io/react_responsive_landingpage/' target='_self' id='todo' >Go to Landing Page</a>
+    <a href='https://srikanthgumma.github.io/react_responsive_landingpage/' target='_self' id='landingpage' >Go to Landing Page</a>
   </Card.Body>
 </Card>
 
 <Card style={{border:"none"}} id='frcard'>
-  <Card.Img variant="top" src=""  style={{width:"100%",height:"250px"}}/>
+  <Card.Img variant="top" src={counter}  style={{width:"100%",height:"250px"}}/>
   <Card.Body>
-    <Card.Title>LiSongs Page</Card.Title>
+    <Card.Title>Counter App</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the
-      bulk of the card's content.
+      It is an Application where you can increment the number by 1 and decrement it by 1 and also you can reset the number to ZERO.
     </Card.Text>
-    <Button variant="primary"  onClick={()=>{window.location.assign('/songs')}}>Go to LiSongs</Button>
+   
+    <a href=' https://srikanthgumma.github.io/react-counter-app/' target='_self' id='counterapp' >Go to Counter Page</a>
   </Card.Body>
 </Card>
 
