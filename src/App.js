@@ -38,8 +38,8 @@ return (
    <div id='navchilds'>
    <a href='https://github.com/srikanthgumma/' id='gPage' title='Go to My GitHub Profile'>GitHub</a>
     <a href='https://www.linkedin.com/in/gummadi-srikanth/' id='gPage' title='Go to My LinkedIn Profile'>LinkedIn</a>
-    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' title='Go to My Resume Profile'>Resume</a>
-    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' title='Go to My InternShip Project'>InternShip Project<sup> <span class="badge" >***</span></sup></a>
+    <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' title='Go to My Resume Profile'>My Profile</a>
+    {/* <a href='https://srikanthgumma.github.io/react_myresume/' id='gPage' title='Go to My InternShip Project'>InternShip Project<sup> <span class="badge" >***</span></sup></a> */}
    </div>
   </Card.Body>
 </Card>
