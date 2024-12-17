@@ -30,7 +30,7 @@ const HeaderSection = () => {
                 
             }}
         >
-    <header className="bg-gray-800 dark:bg-gray-800 shadow-md  w-full p-2 ">
+    <header className="bg-gray-800 dark:bg-gray-800 shadow-md  w-full p-4 ">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-indigo-500 text-2xl font-semibold">Gummadi Srikanth</div>
@@ -70,7 +70,7 @@ const HeaderSection = () => {
 
       {/* Mobile Navigation */}
       {mobileMenu && (
-        <div className="md:hidden bg-gray-300 dark:bg-gray-900 p-10">
+        <div className="md:hidden bg-transparent p-10">
           <a href="#home" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Home</a>
           <a href="#about" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">About Me</a>
           <a href="#services" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Services</a>

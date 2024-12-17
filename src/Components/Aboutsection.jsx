@@ -19,7 +19,9 @@ const Aboutsection = () => {
           About Me
         </h2>
         <p className="text-lg sm:text-xl font-medium dark:text-white text-black">
-          Hi, my name is Srikanth Gummadi, a Fullstack Web Developer, UI Designer, and Mobile Developer. I have honed my skills in Web Development and advanced UI design principles, enabling me to create intuitive and visually appealing applications.
+          Hi, my name is Srikanth Gummadi, Frontend Developer, UI Designer, and Mobile Developer. I have honed my skills in Web Development and advanced UI design principles, enabling me to create intuitive and visually appealing applications.
+         
+          I'm an energetic person, a good communicator, positive thinker and creative. I'm looking for a chance to showcase my skills, creativity and confidence for mutual benefits. Moreover, whenever I face a problem or an issue, I don't leave it behind. I will do my best to solve it. In addition to that, I'm a good team member. I am more open to new opportunities and challenges
         </p>
       </section>
     </motion.Aboutsection>
