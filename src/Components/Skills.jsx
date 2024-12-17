@@ -15,7 +15,7 @@ export default function Skills() {
 
             <section
                 id="home"
-                className="flex-1  items-center justify-between px-6 sm:px-10 md:px-16 py-12 bg-gray-800 sm:bg-transparent"
+                className="flex-1  items-center justify-between px-6 sm:px-10 md:px-16 py-12 bg-gray-800 "
             >
                 <h1 className='text-center text-white text-4xl font-bold'>Skills</h1>
                 <div className="flex flex-col md:flex-row justify-center items-center p-12  w-full gap-8" >
