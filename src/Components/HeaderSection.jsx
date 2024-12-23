@@ -23,29 +23,31 @@ const HeaderSection = () => {
 
   return (
     <motion.HeaderSection
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-                duration: 1, ease: 'easeInOut', 
-                
-            }}
-        >
-    <header className="bg-gray-800 dark:bg-gray-800 shadow-md  w-full p-4 ">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
-        <div className="text-indigo-500 text-2xl font-semibold">Gummadi Srikanth</div>
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 1, ease: 'easeInOut',
 
-        {/* Navigation */}
-        <nav className="hidden md:flex space-x-6">
-          <a href="#home" className="text-indigo-500 hover:text-black dark:hover:text-indigo-500">Home</a>
-          <a href="#about" className="hover:text-indigo-500 text-indigo-500">About Me</a>
-          <a href="#services" className="hover:text-indigo-500 text-indigo-500">Services</a>
-          <a href="#projects" className="hover:text-indigo-500 text-indigo-500">Projects</a>
-          <a href="#contact" className="hover:text-indigo-500 text-indigo-500">Contact</a>
-        </nav>
+      }}
+    >
+      {/* fixed z-20 */}
+      <header className="bg-gray-800 dark:bg-gray-800 shadow-md  w-full p-4 ">
+        <div className=" lg:px-16 lg:py-4 flex justify-between items-center  " >
+          {/* Logo */}
+          <div className="text-indigo-500 text-xl lg:text-2xl font-semibold animate-ping" style={{animationIterationCount:4}} >GS</div>
 
-        {/* Dark Mode Toggle */}
-        {/* <button onClick={toggleDarkMode} className="text-indigo-500 ml-4">
+          {/* Navigation */}
+          <nav className="hidden md:flex space-x-6  text-sm lg:text-xl animate-bounce" style={{animationIterationCount:1}}>
+            <a href="#home" className="text-indigo-500 hover:text-black dark:hover:text-indigo-500 animate-home">Home</a>
+            <a href="#aboutus" className="hover:text-indigo-500 text-indigo-500 animate-about">About</a>
+            <a href="#skills" className="hover:text-indigo-500 text-indigo-500 animate-skills" >Skills</a>
+            <a href="#experience" className="hover:text-indigo-500 text-indigo-500  animate-experience">Experience</a>
+            <a href="#projects" className="hover:text-indigo-500 text-indigo-500 animate-projects">Projects</a>
+            <a href="#contact" className="hover:text-indigo-500 text-indigo-500 animate-contact">Contact</a>
+          </nav>
+
+          {/* Dark Mode Toggle */}
+          {/* <button onClick={toggleDarkMode} className="text-indigo-500 ml-4">
           {darkMode ? (
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
               <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
@@ -57,28 +59,29 @@ const HeaderSection = () => {
           )}
         </button> */}
 
-        {/* Mobile Menu Toggle */}
-        <button
-          className="md:hidden text-indigo-500"
-          onClick={() => setMobileMenu(!mobileMenu)}
-        >
-          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-      </div>
-
-      {/* Mobile Navigation */}
-      {mobileMenu && (
-        <div className="md:hidden bg-transparent p-10">
-          <a href="#home" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Home</a>
-          <a href="#about" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">About Me</a>
-          <a href="#services" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Services</a>
-          <a href="#projects" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Projects</a>
-          <a href="#contact" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Contact</a>
+          {/* Mobile Menu Toggle */}
+          <button
+            className="md:hidden text-indigo-500"
+            onClick={() => setMobileMenu(!mobileMenu)}
+          >
+            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
         </div>
-      )}
-    </header>
+
+        {/* Mobile Navigation */}
+        {mobileMenu && (
+          <div className="md:hidden bg-transparent p-10">
+            <a href="#home" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Home</a>
+            <a href="#about" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">About</a>
+            <a href="#skills" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Skills</a>
+            <a href="#experience" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Experience</a>
+            <a href="#projects" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Projects</a>
+            <a href="#contact" className="block px-4 py-2 text-indigo-500 hover:bg-gray-700">Contact</a>
+          </div>
+        )}
+      </header>
     </motion.HeaderSection>
   );
 };

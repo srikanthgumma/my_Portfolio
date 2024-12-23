@@ -60,8 +60,7 @@
 	background: #1f2937;
 	background: -webkit-linear-gradient(to left, #333338, #333338);
 	width: 100%;
-	height: 100vh;
-	position: absolute;
+	height: 100%;
 	z-index: -1;
 }
 
@@ -177,3 +176,188 @@
 /*
 -- End BackGround Animation 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.bg-gradient {
+	background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f7d794);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.text-shadow {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.myname {
+	background-image: linear-gradient(to right, red, blue);
+}
+
+.projects {
+	scrollbar-width: none;
+}
+
+@keyframes carouselAnim {
+	from {
+		transform: translate(0, 0);
+	}
+
+	to {
+		transform: translate(calc(-100% + (6*300px)));
+	}
+}
+
+@media only screen and (max-width: 2560px) {
+	.container .carousel-items {
+		animation: carouselAnim 15s infinite alternate linear;
+	}
+
+	@keyframes carouselAnim {
+		from {
+			transform: translate(0, 0);
+		}
+
+		to {
+			transform: translate(calc(-100% + (5*300px)));
+		}
+	}
+}
+
+.carousel-focus:hover {
+	transition: all 0.8s;
+	transform: scale(1.1);
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(460px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fade-in-up {
+	animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.skill-bar {
+	transition: width 1s ease-out;
+}
+
+@keyframes About {
+	from {
+		opacity: 0;
+		transform: translateY(960px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes Home {
+	from {
+		opacity: 0;
+		transform: translateY(760px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes Skills {
+	from {
+		opacity: 0;
+		transform: translateY(1060px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes Experience {
+	from {
+		opacity: 0;
+		transform: translateY(1160px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes Projects {
+	from {
+		opacity: 0;
+		transform: translateY(1260px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes Contact {
+	from {
+		opacity: 0;
+		transform: translateY(1360px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-home {
+	animation: Home 2s ease-in-out backwards;
+}
+
+.animate-about {
+	animation: About 2s ease-in-out backwards;
+}
+
+.animate-skills {
+	animation: Skills 2s ease-in-out forwards;
+}
+
+.animate-experience {
+	animation: Experience 2s ease-in-out forwards;
+}
+
+.animate-projects {
+	animation: Projects 2s ease-out forwards;
+}
+
+.animate-contact {
+	animation: Contact 2s ease-out forwards;
+}
