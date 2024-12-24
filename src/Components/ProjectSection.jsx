@@ -98,7 +98,7 @@ const ProjectsSection = () => {
     >
       <section
         id="projects"
-        className=" px-1 lg:px-16 py-12 bg-white dark:bg-gray-800 overflow-hidden"
+        className=" px-1 lg:px-16 py-12 bg-[#1f2937] overflow-hidden"
       >
         <p className='text-blue-500 text-center font-bold mb-3 text-sm lg:text-xl'>CHECK OUT ALL OF MY PROJECTS</p>
         <h2 className="text-white text-2xl lg:text-4xl  text-center font-semibold mb-10">

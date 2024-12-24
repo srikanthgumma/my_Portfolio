@@ -31,7 +31,7 @@ const HeaderSection = () => {
       }}
     >
       {/* fixed z-20 */}
-      <header className="bg-gray-800 dark:bg-gray-800 shadow-md  w-full p-4 ">
+      <header className="bg-[#1f2937] shadow-md  w-full p-4 ">
         <div className=" lg:px-16 lg:py-4 flex justify-between items-center  " >
           {/* Logo */}
           <div className="text-indigo-500 text-xl lg:text-2xl font-semibold animate-ping" style={{animationIterationCount:4}} >GS</div>

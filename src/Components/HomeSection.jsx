@@ -12,7 +12,7 @@ const HomeSection = () => {
     return (
         <section
             id="home"
-            className="flex-1 flex flex-col-reverse md:flex-row justify-between p-4 xl:p-20 w-full h-full lg:h-[1000px] items-start bg-transparent mt-20"
+            className="flex-1 flex flex-col-reverse md:flex-row justify-between p-4 xl:p-20 w-full h-full lg:h-[1000px] items-start bg-[#1f2937] mt-20"
         >
             <div className=' flex flex-col items-center justify-start lg:items-start text-left  gap-2 lg:gap-8 animate-fade-in-up' style={{ animationDelay: '0.4s' }} >
                 <div className='flex flex-col gap-2 mt-8  '>

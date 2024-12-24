@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex-1 overflow-hidden text-center w-full px-1 lg:px-16 py-12 bg-gray-800 relative animate-fade-in-up"
+      className="flex-1 overflow-hidden text-center w-full px-1 lg:px-16 py-12 bg-[#1f2937] relative animate-fade-in-up"
     >
       <p className='text-center text-blue-700 text-sm lg:text-lg font-bold '>MY SKILLS PROGRESS SO FAR</p>
       <h1 className='text-center text-white text-xl lg:text-3xl font-bold mt-2 mb-12'>MY SKILLS</h1>

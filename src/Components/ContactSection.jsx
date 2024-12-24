@@ -36,7 +36,7 @@ const ContactSection = () => {
     >
       <section
         id="contact"
-        className="px-6 sm:px-10 md:px-16 py-12 bg-white dark:bg-gray-800"
+        className="px-6 sm:px-10 md:px-16 py-12 bg-[#1f2937]"
       >
         <h2 className="text-indigo-500 text-xl lg:text-4xl font-semibold text-center mb-3">
           Connect with Me

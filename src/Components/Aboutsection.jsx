@@ -14,7 +14,7 @@ const Aboutsection = () => {
     >
       <section
         id="aboutus"
-        className="px-6 sm:px-10 md:px-16 pb-16 mb-24 w-full bg-white dark:bg-gray-800 animate-fade-in-up"
+        className="px-6 sm:px-10 md:px-16 pb-28 w-full bg-[#1f2937] animate-fade-in-up"
       >
         <div className='flex flex-col lg:flex-row gap-10 justify-center items-center lg:mx-auto w-full'>
           <img src={require('../images/programmer1.png')} className=' w-fit  ' />
