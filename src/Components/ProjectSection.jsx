@@ -25,63 +25,63 @@ const projects = [
     imgSrc: pic7,
     title: "Weather App",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://srikanthgumma.github.io/react_weather_app",
   },
   {
     imgSrc: pic2,
     title: "Calculator",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://github.com/srikanthgumma/code-calculator",
   },
   {
     imgSrc: pic2,
     title: "Responsive Page",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "http://srikanthgumma.github.io/react_responsive_landingpage",
   },
   {
     imgSrc: pic3,
     title: "MERN TO-DO",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT | NODE.JS | EXPRESS.JS",
     link: "https://github.com/srikanthgumma/Mern-Todo-Project",
   },
   {
     imgSrc: pic1,
     title: "Counter App",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://srikanthgumma.github.io/react-counter-app",
   },
   {
     imgSrc: pic4,
     title: "GymAI website",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://gym-ai-site.vercel.app/",
   },
   {
     imgSrc: pic6,
     title: "Vriddhi Media website",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://vriddhi-mediaa.vercel.app/",
   },
   {
     imgSrc: pic5,
     title: "Editable Table",
     description:
-      "Html,CSS",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://tabulator-table-self.vercel.app/",
   },
   {
     imgSrc: pic3,
     title: "To-do List",
     description:
-      "....",
+      "HTML | CSS | JAVASCRIPT | REACT",
     link: "https://srikanthgumma.github.io/todo_Repo",
   },
 ];
@@ -117,12 +117,12 @@ const ProjectsSection = () => {
                   className="rounded-lg mb-4 object-cover h-36 lg:h-72 w-full"
                 />
                 <div className='p-6'>
-                  <h3 className="text-white text-xl lg:text-2xl font-semibold mb-2">
-                    {project.title}
-                  </h3> 
-                  <p className=' text-xl bg-gradient-to-r text-left from-blue-500  to-pink-500 bg-clip-text font-bold  text-transparent select-auto'>
+                  <p className=' text-sm bg-gradient-to-r text-left from-blue-500  to-pink-500 bg-clip-text font-bold  text-transparent select-auto pb-2'>
                     {project.description}
                   </p>
+                  <h3 className="text-white text-lg lg:text-2xl font-semibold mb-2">
+                    {project.title}
+                  </h3> 
                   <a
                     href={project.link}
                     className="text-white mt-4  font-semibold hover:underline opacity-60 hover:opacity-100 hover:text-indigo-500"

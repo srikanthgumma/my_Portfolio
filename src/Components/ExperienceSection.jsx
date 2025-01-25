@@ -56,7 +56,7 @@ const AccordionItem = ({ title, years, role, children, id }) => {
 
 const ExperienceSection = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-1 lg:p-10 my-16 bg-[#1f2937]" id="experience">
+    <div className="max-w-screen-xl mx-auto p-1 lg:p-10 bg-[#1f2937]" id="experience">
       <p className="text-blue-700 text-sm lg:text-xl font-bold text-center">WORK EXPERIENCE & EDUCATION</p>
       <h1 className="text-white text-xl lg:text-3xl font-bold text-center mb-14">EXPERIENCE</h1>
       <div id="accordion-flush">

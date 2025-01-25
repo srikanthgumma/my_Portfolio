@@ -22,14 +22,14 @@ const Aboutsection = () => {
             <h2 className="text-indigo-500 text-3xl sm:text-4xl font-semibold  mb-3md:mb-6">
               WHO I AM
             </h2>
-            <p className="text-lg sm:text-2xl font-medium dark:text-white  max-w-[850px]">
-              Hi, my name is <span className='bg-gradient-to-r items-center from-blue-500  to-pink-500 bg-clip-text font-bold  text-transparent text-center select-auto'>Srikanth Gummadi</span>, Frontend Developer, UI Designer, and Mobile Developer.
-              <br />
-              <br />
-              I have honed my skills in Web Development and advanced UI design principles, enabling me to create intuitive and visually appealing applications.<br /> <br />
-              I'm an energetic person, a good communicator, positive thinker and creative. I'm looking for a chance to showcase my skills, creativity and confidence for mutual benefits. Moreover, whenever I face a problem or an issue, I don't leave it behind. I will do my best to solve it.
-              <br /><br />In addition to that,
-              I'm a great team member. I am more open to new opportunities and challenges
+            <p className="text-sm sm:text-xl font-medium dark:text-white  max-w-[850px]">
+              Hi, my name is <span className='bg-gradient-to-r items-center from-blue-500  to-pink-500 bg-clip-text font-bold  text-transparent text-center select-auto'>Srikanth Gummadi</span>, Full Stack Developer, UI Designer, and Mobile Developer.
+
+              I am a highly skilled frontend web developer with hands-on experience delivering over 10 real-time projects using cutting-edge technologies, including HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, Tailwind, and MUI. My expertise lies in designing and developing responsive, user-friendly, and scalable web applications tailored to meet client and industry requirements.<br/><br/>
+
+              In addition to my technical skills, I bring over 4 years of experience as a social media freelancer. I have a proven track record of designing and delivering high-quality, impactful content across diverse social media platforms. My creative approach and understanding of audience engagement have enabled me to help brands enhance their online presence and connect effectively with their target audiences.<br/><br/>
+
+              I thrive on challenges and am passionate about leveraging my technical and creative expertise to deliver innovative solutions. My ability to blend development skills with creative content strategy allows me to contribute meaningfully to projects and teams. Whether building web solutions or crafting digital content, I am committed to excellence and continuous learning to stay at the forefront of industry trends.
             </p>
             <a href='/media/gummadisrikanthresume.pdf' download='gummadisrikanthresume.pdf' className='bg-gradient-to-r w-fit items-center px-6 py-3 from-blue-500  to-pink-500 text-white rounded-3xl mt-8  font-bold  text-transparent text-center select-auto flex  gap-3'>DOWNLOAD MY CV <HiOutlineDownload size={26} /></a>
           </div>
